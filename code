@@ -4,7 +4,7 @@ def numero_uno():
 def numero_dos():
     return int(input("Mete el segundo número: "))
 
-while True:               #Bonus track. No obligatoerio, pero de seguro que nos ofrece puntos extra si metemos la gamba en otra cosa del código.
+while True:               #Bonus track. No obligatorio, pero de seguro que nos ofrece puntos extra si metemos la gamba en otra cosa del código.
     try:
         n1 = numero_uno()  # Asignar el valor a la variable para que el sistema entienda qué datos procesar
         n2 = numero_dos()  # Asignar el valor a la variable para que el sistema entienda qué datos procesar
