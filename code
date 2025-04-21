@@ -1,0 +1,19 @@
+def numero_uno():
+    return int(input("Mete el primer número, por favor: "))
+
+def numero_dos():
+    return int(input("Mete el segundo número: "))
+
+while True:               #Bonus track. No obligatoerio, pero de seguro que nos ofrece puntos extra si metemos la gamba en otra cosa del código.
+    try:
+        n1 = numero_uno()  # Asignar el valor a la variable para que el sistema entienda qué datos procesar
+        n2 = numero_dos()  # Asignar el valor a la variable para que el sistema entienda qué datos procesar
+
+        if n1 > n2:
+            print(f"En este caso {n1} es mayor que {n2}.")
+        elif n1 == n2:
+            print("Son igualicos.")
+        else:
+            print(f"El {n2} es más grande que {n1}.")
+    except ValueError:  # Si hay un error en la conversión de números
+        print("Por favor, introduce solo números enteros.")
